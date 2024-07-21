@@ -146,45 +146,45 @@ li {
 
 /* Example section backgrounds, adjust as needed */
 #section1 {
-    background-image: url('../trialcv/publicImg/24365372_6898823.jpg');
+    background-image: url('./publicImg/24365372_6898823.jpg');
     height:100%;
 }
 
 #section2 {
-    background-image: url('../trialcv/publicImg/edu.jpg');
+    background-image: url('./publicImg/edu.jpg');
 }
 
 #section3 {
-    background-image: url('../trialcv/publicImg/skills.jpg');
+    background-image: url('./publicImg/skills.jpg');
     align-items:center
 }
 
 #section4 {
-    background-image: url('../trialcv/publicImg/skills.jpg');
+    background-image: url('./publicImg/skills.jpg');
 }
 
 #section5 {
-    background-image: url('../trialcv/publicImg/skills.jpg');
+    background-image: url('./publicImg/skills.jpg');
 }
 
 #section6 {
-    background-image: url('../trialcv/publicImg/skills.jpg');
+    background-image: url('./publicImg/skills.jpg');
 }
 
 #section7 {
-    background-image: url('../trialcv/publicImg/skills.jpg');
+    background-image: url('./publicImg/skills.jpg');
 }
 
 #section8 {
-    background-image: url('../trialcv/publicImg/13295064_5172658.jpg');
+    background-image: url('./publicImg/13295064_5172658.jpg');
 }
 
 #section9 {
-    background-image: url('../trialcv/publicImg/edus.jpg');
+    background-image: url('./publicImg/edus.jpg');
 }
 
 #section10 {
-    background-image: url('../trialcv/publicImg/etcetc.jpg');
+    background-image: url('./publicImg/etcetc.jpg');
 }
 .mongo{
     height:100%;
