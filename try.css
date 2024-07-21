@@ -146,7 +146,7 @@ li {
 
 /* Example section backgrounds, adjust as needed */
 #section1 {
-    background-image: url('./publicImg/24365372_6898823.jpg');
+    background-image: url('publicImg/24365372_6898823.jpg');
     height:100%;
 }
 
