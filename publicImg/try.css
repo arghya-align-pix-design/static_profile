@@ -1,0 +1,153 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #ecf0f1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    transition: background-image 0.5s ease, background-color 0.5s ease;
+    background-size: cover;
+    background-position: center;
+
+    /* transition: background-color 0.5s ease; */
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-snap-type: x mandatory;
+    height: 100vh;
+    position: relative;
+    white-space: nowrap; /* Prevent sections from wrapping */
+}
+
+.section {
+    scroll-snap-align: start;
+    min-width: 100vw;
+    height: 100vh;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    white-space: normal; /* Allow text wrapping within sections */
+}
+
+.dark-mode {
+    background-color: #2c3e50; /* Dark background color */
+}
+
+.light-mode {
+    background-color: #2c3e50; /* Original background color */
+}
+
+header {
+    text-align: center;
+    /* background:"portfolio\src\components\trialcv\publicImg\5192479.jpg"; */
+    
+}
+
+#img_logos{
+    height:40%;
+    width:40%;
+    display:inline;
+
+}
+#css{
+    height:50%;
+    width:50%;
+    display:inline;
+}
+
+#section1{
+    background-image: url('../trialcv/publicImg/24365372_6898823.jpg');
+
+}
+
+#section3 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+
+}
+#section4 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+
+}
+#section5 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+
+}
+#section6 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+
+}
+#section7 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+
+}
+#section8 {
+    background-image: url('../trialcv/publicImg/13295064_5172658.jpg');
+
+}
+#section9 {
+    background-image: url('../trialcv/publicImg/edu.jpg');
+
+}
+#section10 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+h2 {
+    color: #1abc9c;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.arrow:hover {
+    color: rgba(255, 255, 255, 1);
+}

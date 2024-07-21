@@ -1,0 +1,192 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ecf0f1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: background-image 0.5s ease, background-color 0.5s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-snap-type: x mandatory;
+    height: 100vh;
+    position: relative;
+    white-space: nowrap; /* Prevent sections from wrapping */
+}
+
+.section {
+    scroll-snap-align: start;
+    min-width: 100vw;
+    height: 100%;
+    margin:0;
+    left:10px;
+    padding: 0px;
+    display:flex;
+    /* flex-direction: column;   Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    white-space: normal; /* Allow text wrapping within sections */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    width: 100%; /* Ensure header takes full width */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+h1{
+    color: #1abc9c;
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    color: #1abc9c;
+    margin-bottom: 10px;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#img_logos {
+    max-height: 100%;
+    max-width: 100%;
+    height:20%;
+    width:20%;
+    padding:10px;
+    border-radius: 60%;
+    /* object-fit: cover; */
+    display: inline-block;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+
+.logoHolders{
+    height:50vh;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#tri_logos{
+    max-height: 100%;
+    max-width: 100%;
+    height:20%;
+    width:20%;
+    padding:10px;
+    border-radius: 100%;
+    /* object-fit: cover; */
+    display: inline-block;
+}
+
+.certs{
+    align-items: center;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.arrow:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.java{
+    height:30vh;
+    width:40vh;
+    padding:30px;
+    margin-left: 50px;
+}
+
+/* Example section backgrounds, adjust as needed */
+#section1 {
+    background-image: url('../trialcv/publicImg/24365372_6898823.jpg');
+    height:100%;
+}
+
+#section2 {
+    background-image: url('../trialcv/publicImg/edu.jpg');
+}
+
+#section3 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+    align-items:center
+}
+
+#section4 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+}
+
+#section5 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+}
+
+#section6 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+}
+
+#section7 {
+    background-image: url('../trialcv/publicImg/skills.jpg');
+}
+
+#section8 {
+    background-image: url('../trialcv/publicImg/13295064_5172658.jpg');
+}
+
+#section9 {
+    background-image: url('../trialcv/publicImg/edus.jpg');
+}
+
+#section10 {
+    background-image: url('../trialcv/publicImg/etcetc.jpg');
+}
+.mongo{
+    height:100%;
+    width:25%;
+}
